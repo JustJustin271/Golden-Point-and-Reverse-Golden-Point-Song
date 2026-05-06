@@ -9,11 +9,12 @@ total_duration = (minutes_song * 60) + seconds_song
 golden_point = int(golden_ratio * total_duration)
 reverse_golden_point = int((1-golden_ratio) * total_duration)
 
-print(f"""The golden point of the song is:\n
-{golden_point // 60} minute(s) and {golden_point % 60} second(s)""")
+print(f"""The golden point of the song is:
+{golden_point // 60} minute(s) and {golden_point % 60} second(s)\n""")
 
-print(f"""The reverse golden point of the song is:\n
+print(f"""The reverse golden point of the song is:
 {reverse_golden_point // 60} minute(s) and {reverse_golden_point % 60} second(s)""")
+
 
 ## Created on May 6th, 2026
 ## Used to find the golden and reverse golden points of a song
